@@ -1,6 +1,6 @@
 let arrElementsMoney = document.querySelectorAll('.money');
 
-let allMoney = 5000;
+let allMoney = 0;
 
 for (let i = 0; i < arrElementsMoney.length; i++) {
     allMoney += +arrElementsMoney[i].innerText;
@@ -68,7 +68,6 @@ arrAims.forEach(element => {
         containerAims.appendChild(progressBarContainer);
     } else if (nessesaryMoney > allMoney >= 0) {
         let progress = (allMoney * 100) / nessesaryMoney;
-        console.log({ progress })
         let fullProgress = document.createElement('H5');
         fullProgress.innerHTML = `Собрано <span>${allMoney}</span> р. из <span>${nessesaryMoney}</span>р.`;
         containerAims.appendChild(fullProgress);
