@@ -21,8 +21,8 @@ let arrAims = [
         typeAim: 'Медиаплееры Sberbox c ассистентами Сбер, Афина, Джой',
     },
     {
-        nessesaryMoney: 3000,
-        typeAim: 'Глубокая сковорода, ножи',
+        nessesaryMoney: 5000,
+        typeAim: 'Новая посуда (доп. кстарюли, ножи сковороды)',
     },
     {
         nessesaryMoney: 4000,
