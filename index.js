@@ -25,21 +25,13 @@ let arrAims = [
         typeAim: 'Глубокая сковорода, ножи',
     },
     {
-        nessesaryMoney: 35000,
-        typeAim: 'Душевая кабина',
-    },
-    {
         nessesaryMoney: 4000,
         typeAim: 'Комоды и тумбы',
     },
     {
         nessesaryMoney: 25000,
         typeAim: 'Большой монитор 34" в кабинет',
-    },
-    {
-        nessesaryMoney: 12000,
-        typeAim: 'Сушилка для белья с дезинфекцией Xaomi',
-    },
+    }
 ]
 
 arrAims.forEach(element => {
